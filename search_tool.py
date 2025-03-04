@@ -39,7 +39,9 @@ class WebSearchScraper:
     def parse_search_results(self, html):
         soup = BeautifulSoup(html, "html.parser")
         results = []
+        
         # Look for h2 elements with a unique class substring from our sample.
+        # These classes may need to be updated periodically.
         for header in soup.find_all("h2", class_=lambda c: c and "LnpumSThxEWMIsDdAT17" in c):
             a_tag = header.find("a", href=True)
             if not a_tag:
@@ -56,9 +58,12 @@ class WebSearchScraper:
         return results
 
     def scrape_page_content(self, url):
-        options = Options()
-        #options.add_argument("--headless")
+        options = Options()\
+        
+        # Uncomment to view the Selenium Browser
+        # options.add_argument("--headless")
         options.add_argument("--disable-gpu")
+
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--log-level=3")
@@ -92,7 +97,7 @@ class WebSearchScraper:
             # Only include text if it meets one of these conditions:
             # 1. It is longer than 100 characters.
             # 2. It is at least 50 characters long, contains at least 4 spaces,
-            #    and consists only of allowed characters.
+            # 3. Consists only of allowed characters.
             if len(txt) >= 100 or (len(txt) >= 50 and txt.count(" ") >= 4 and allowed_pattern.match(txt)):
                 texts.append(txt)
         # Remove duplicates.
