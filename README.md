@@ -42,5 +42,5 @@
 ## Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone [<repository-url>](https://github.com/bitzspider/LAIRA.git)
+cd LAIRA
