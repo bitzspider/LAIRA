@@ -6,7 +6,7 @@
 
 🚀 **Runs locally with Ollama and a built-in web scraping search function.**  
 ✅ **No API subscription required.**  
-💯 **100% FREE**  
+💯 **100% FREE and LOCAL**  
 
 ---
 
