@@ -1,4 +1,6 @@
-# LAIRA: Langchain Artificial Intelligence Research Assistant  
+# LAIRA
+
+**L**angchain **A**rtificial **I**ntelligence **R**esearch **A**ssistant  
 
 **LAIRA** is an intelligent research assistant designed to process research queries by performing web searches and generating comprehensive reports. This project simplifies research by integrating real-time web data.  
 
