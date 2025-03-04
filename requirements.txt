@@ -1,0 +1,5 @@
+python-dotenv>=0.20.0
+langchain_community
+gradio>=3.0.0
+selenium>=4.0.0
+beautifulsoup4>=4.9.3
