@@ -1,7 +1,3 @@
-Here's your **final, polished** `README.md` with **everything combined**, including **Ollama configuration, LLM selection, and `.env` file explanation**:
-
----
-
 # LAIRA: Langchain Artificial Intelligence Research Assistant  
 
 **LAIRA** is an intelligent research assistant designed to process research queries by performing web searches and generating comprehensive reports. This project simplifies research by integrating real-time web data.  
