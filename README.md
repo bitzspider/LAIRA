@@ -35,11 +35,4 @@
    - Enter your research query into the interface.  
    - LAIRA will process your query, perform web searches, and generate a comprehensive report.
 
-6. **Troubleshooting**  
-   - **Virtual Environment:** Ensure it’s activated before installing dependencies.  
-   - **Dependencies:** Verify that all packages from `requirements.txt` are installed correctly.  
-   - **Web Interface Issues:** If the interface doesn’t load, check that port 7860 is available or update your configuration as needed.
-
-7. **Contributing (Optional)**  
-   If you wish to contribute, open an issue or submit a pull request with your improvements or bug fixes. Follow the established coding style and include tests where applicable.
 
