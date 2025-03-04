@@ -45,7 +45,7 @@ python main.py
 
 ---
 
-## 🛠️ Resources Used  
+## 🛠️ Resources  
 - [LangChain](https://python.langchain.com/en/latest/) - Framework for building LLM-powered applications  
 - [Ollama](https://ollama.com/) - Local LLM execution  
 - [Selenium](https://www.selenium.dev/) - Web scraping and automation  
